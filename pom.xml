@@ -67,16 +67,21 @@
 			<artifactId>camel-jacksonxml-starter</artifactId>
 		</dependency>
 
-<!--		&lt;!&ndash; Kafka &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-kafka</artifactId>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-kafka-starter</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-mongodb-starter</artifactId>
+		</dependency>
+
 
 		<!-- Testing -->
 		<dependency>
