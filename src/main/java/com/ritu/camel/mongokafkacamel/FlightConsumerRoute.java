@@ -26,3 +26,9 @@ public class FlightConsumerRoute extends RouteBuilder {
             .log("Flight saved to MongoDB");
     }
 }
+
+/*
+“User REST API se flight event bhejta hai.
+Flight microservice us event ko Kafka topic me publish karta hai.
+Apache Camel Kafka se event consume karta hai, usme metadata add karta hai aur MongoDB me store karta hai for analytics and operations dashboard.”
+ */
